@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TentangActivity"></activity>
-        <activity android:name=".JadwalActivity"></activity>
-        <activity android:name=".LatihanActivity"></activity>
+        <activity android:name=".LatihanDetail"></activity>
+        <activity android:name=".TentangActivity" />
+        <activity android:name=".JadwalActivity" />
+        <activity android:name=".LatihanActivity" />
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
